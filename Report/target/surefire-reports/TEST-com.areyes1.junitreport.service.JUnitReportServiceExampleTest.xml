@@ -63,7 +63,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|localhost|*.localhost"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.01" classname="Verify Login Page Access" name="testAssertEqualsFalse2">
+  <testcase time="0.01" classname="Verify Login Page Access" name="testAssertEqualsFalse3">
     <failure message="expected:&lt;com.areyes1.junitreport.service.ServiceObject@1338933d&gt; but was:&lt;com.areyes1.junitreport.service.ServiceObject@674a93a6&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;com.areyes1.junitreport.service.ServiceObject@1338933d&gt; but was:&lt;com.areyes1.junitreport.service.ServiceObject@674a93a6&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
