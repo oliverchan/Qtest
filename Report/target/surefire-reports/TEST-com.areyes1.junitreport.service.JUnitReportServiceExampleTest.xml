@@ -105,8 +105,8 @@
 &gt;&gt;&gt; processing - done
 </system-out>
   </testcase>
-  <testcase time="0" classname="com.areyes1.junitreport.service.JUnitReportServiceExampleTest" name="testAssertEquals1"/>
-  <testcase time="0" classname="com.areyes1.junitreport.service.JUnitReportServiceExampleTest" name="testAssertEqualsWithMessage1"/>
+  <testcase time="0" classname="Verify Login Page Access" name="testAssertEquals1"/>
+  <testcase time="0" classname="Verify Login Page Access" name="testAssertEqualsWithMessage1"/>
   <testcase time="0.002" classname="com.areyes1.junitreport.service.JUnitReportServiceExampleTest" name="testAssertEqualsFalseWithMessage1">
     <failure message="Not the Same Object expected:&lt;com.areyes1.junitreport.service.ServiceObject@5de6cecc&gt; but was:&lt;com.areyes1.junitreport.service.ServiceObject@5c12e33d&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Not the Same Object expected:&lt;com.areyes1.junitreport.service.ServiceObject@5de6cecc&gt; but was:&lt;com.areyes1.junitreport.service.ServiceObject@5c12e33d&gt;
 	at org.junit.Assert.fail(Assert.java:88)
