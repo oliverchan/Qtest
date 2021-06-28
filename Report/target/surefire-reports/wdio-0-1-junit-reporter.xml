@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Lambdatest Demo Test" timestamp="2021-06-27T01:41:24" time="15.408" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Lambdatest Demo Test"/>
+      <property name="capabilities" value="chrome.91_0_4472_114.windows"/>
+      <property name="file" value=".\test\specs\myFirstScript.js"/>
+    </properties>
+    <testcase classname="chrome.91_0_4472_114.windows.Lambdatest Demo Test" name="Lambdatest Demo TestCase5" time="15.406">
+      <system-out><![CDATA[
+COMMAND: POST /session/71c2082f1cfa1e9813468ac2a2ab0ab7/url - {"url":"https://lambdatest.github.io/sample-todo-app/"}
+RESULT: {"url":"https://lambdatest.github.io/sample-todo-app/"}
+COMMAND: POST /session/71c2082f1cfa1e9813468ac2a2ab0ab7/element - {"using":"css selector","value":"*[name='li1']"}
+RESULT: {"using":"css selector","value":"*[name='li1']"}
+COMMAND: POST /session/71c2082f1cfa1e9813468ac2a2ab0ab7/element/87d88aa4-70a5-4ef3-bdc5-533e5474644e/click - {}
+RESULT: {}
+COMMAND: POST /session/71c2082f1cfa1e9813468ac2a2ab0ab7/element - {"using":"css selector","value":"*[name='li2']"}
+RESULT: {"using":"css selector","value":"*[name='li2']"}
+COMMAND: POST /session/71c2082f1cfa1e9813468ac2a2ab0ab7/element/a1ff3419-be8d-484c-863a-68abec3ddead/click - {}
+RESULT: {}
+COMMAND: POST /session/71c2082f1cfa1e9813468ac2a2ab0ab7/element - {"using":"css selector","value":"#sampletodotext"}
+RESULT: {"using":"css selector","value":"#sampletodotext"}
+COMMAND: POST /session/71c2082f1cfa1e9813468ac2a2ab0ab7/element/9ba12134-35b1-42c0-b908-704784ad2dcf/clear - {}
+RESULT: {}
+COMMAND: POST /session/71c2082f1cfa1e9813468ac2a2ab0ab7/element/9ba12134-35b1-42c0-b908-704784ad2dcf/value - {"text":"Lambdatest\n"}
+RESULT: {"text":"Lambdatest\n"}
+COMMAND: GET /session/71c2082f1cfa1e9813468ac2a2ab0ab7/title - {}
+RESULT: {}
+COMMAND: DELETE /session/71c2082f1cfa1e9813468ac2a2ab0ab7 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
