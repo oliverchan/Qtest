@@ -7,7 +7,7 @@
       <property name="capabilities" value="chrome.91_0_4472_114.windows"/>
       <property name="file" value=".\test\specs\myFirstScript.js"/>
     </properties>
-    <testcase classname="chrome.91_0_4472_114.windows.Lambdatest Demo Test" name="Lambdatest Demo TestCase5" time="15.406">
+    <testcase classname="chrome.91_0_4472_114.windows.Lambdatest Demo Test" name="Lambdatest Demo TestCase1" time="15.406">
       <system-out><![CDATA[
 COMMAND: POST /session/71c2082f1cfa1e9813468ac2a2ab0ab7/url - {"url":"https://lambdatest.github.io/sample-todo-app/"}
 RESULT: {"url":"https://lambdatest.github.io/sample-todo-app/"}
