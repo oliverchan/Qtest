@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="webdriver io page" timestamp="2021-06-29T20:37:54" time="6.386" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="webdriver.io page"/>
+      <property name="capabilities" value="chrome.91_0_4472_114.windows"/>
+      <property name="file" value=".\test\specs\WdioTestSpec.js"/>
+    </properties>
+    <testcase classname="chrome.91_0_4472_114.windows.webdriver io page" name="should have the right title the fancy generator way" time="6.385">
+      <system-out><![CDATA[
+COMMAND: POST /session/e2be76f5e10f9216e6cd94b57ea6508d/url - {"url":"http://webdriver.io/"}
+RESULT: {"url":"http://webdriver.io/"}
+COMMAND: GET /session/e2be76f5e10f9216e6cd94b57ea6508d/title - {}
+RESULT: {}
+COMMAND: DELETE /session/e2be76f5e10f9216e6cd94b57ea6508d - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
