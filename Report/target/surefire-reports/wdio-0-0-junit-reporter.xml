@@ -17,7 +17,7 @@ COMMAND: DELETE /session/47d433b6295f21f3a1fecd8e81035df8 - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-  <testcase time="0" classname="Enter valid URL address for login page" name="access URL:-.https://1.1.1.1:8081"/>
+  <testcase time="0" classname="Enter valid URL address for login page" name="access URL:-.https://1.1.1.1:8081 actualname="access URL:-.https://1.2.12.1:8081"/>
   <testcase time="0" classname="Enter valid URL address for login page" name="access URL:-.http://1.1.1.1"/>
   </testsuite>
 </testsuites>
