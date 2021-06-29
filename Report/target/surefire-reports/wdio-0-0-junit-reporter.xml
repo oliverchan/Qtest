@@ -7,7 +7,7 @@
       <property name="capabilities" value="chrome.91_0_4472_114.windows"/>
       <property name="file" value=".\test\specs\basic.js"/>
     </properties>
-    <testcase classname="Enter valid URL address for login page" name="should have the right title2 - no overwrite3" time="3.673">
+    <testcase classname="Enter valid URL address for login page" name="access URL:-.https://1.1.1.1:8080" time="3.673">
       <system-out><![CDATA[
 COMMAND: POST /session/47d433b6295f21f3a1fecd8e81035df8/url - {"url":"https://webdriver.io/"}
 RESULT: {"url":"https://webdriver.io/"}
@@ -17,5 +17,7 @@ COMMAND: DELETE /session/47d433b6295f21f3a1fecd8e81035df8 - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
+  <testcase time="0" classname="Enter valid URL address for login page" name="access URL:-.https://1.1.1.1:8081"/>
+  <testcase time="0" classname="Enter valid URL address for login page" name="access URL:-.http://1.1.1.1"/>
   </testsuite>
 </testsuites>
